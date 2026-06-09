@@ -133,7 +133,7 @@ private fun FavoriteCard(
                     tint = MaterialTheme.colorScheme.onSurfaceVariant)
             }
             IconButton(onClick = onRemove) {
-                Icon(Icons.Default.FavoriteOff, "Retirer des favoris",
+                Icon(Icons.Default.FavoriteBorder, "Retirer des favoris",
                     tint = MaterialTheme.colorScheme.onSurfaceVariant)
             }
         }
